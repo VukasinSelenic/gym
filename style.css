@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+	
+}
+img {
+	max-width: 100%;
+}
+.header {
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/baner.jpg");
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center;
+	height: 100vh;
+}
+.header-text {
+	text-align: center;
+	padding-top: 250px;
+	color: #fff;
+}
+.header-text .container h2 {
+	font-size: 90px;
+	font-weight: 700;
+}
+.header-text .container h2 span {
+	color: crimson;
+}
+.header-text .container p {
+	font-size: 25px;
+	font-weight: 700;
+}
+.header-text .container a {
+	text-decoration: none;
+	padding: 10px;
+	background: crimson;
+	color: #fff;
+	font-weight: 700;
+}
+.socials i {
+	
+	font-size: 40px;
+	color: crimson;
+	cursor: pointer;
+	margin-top: 200px;
+	margin-left: 60px;
+	
+}
+.bg-light {
+	background: #A60F2D!important;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-brand span {
+	color: #000;
+}
+.navbar-brand {
+	color: #fff!important;
+	font-size: 30px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+	color: #000!important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	margin-right: 20px;
+	font-size: 18px;
+}
+.titl h2 {
+	color: #000;
+	text-align: center;
+	padding-bottom: 50px;
+	font-weight: 700;
+	padding-top: 80px;
+}
+.features {
+	background: crimson;
+	padding-bottom: 100px;
+	
+}
+.features i {
+	text-align: center;
+	font-size: 90px;
+	color: crimson;
+	padding: 10px;
+}
+.card {
+	margin: 0 auto 10px;
+	
+}
+.card img {
+	height: 190px;
+}
+.card-body h5 {
+	color: crimson;
+	text-align: center;
+	font-weight: bold;
+}
+.card-body {
+	text-align: center;
+	
+}
+.card-body .btn-primary {
+	background: transparent;
+	box-shadow: 0 0 0 1px crimson;
+	border: 0;
+	color: crimson;
+	font-weight: bold;
+}
+.about .titl h2 {
+	padding-bottom: 120px;
+}
+.about .btn-primary {
+	background: transparent;
+	box-shadow: 0 0 0 1px crimson;
+	border: 0;
+	color: crimson;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.about img {
+	margin-bottom: 80px;
+}
+.team {
+	background: crimson;
+}
+.team img {
+	height: 300px;
+}
+.team i {
+	font-size: 22px;
+	margin-top: 15px;
+	margin-right: 5px;
+	padding: 10px;
+	background: crimson;
+	color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.contact i {
+	font-size: 20px;
+	display: block;
+	margin-bottom: 20px;
+	color: crimson;
+}
+.contact i span {
+	color: #000;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.contact h2 {
+	color: crimson;
+}
+
+.contact  {
+	margin-bottom: 60px;
+}
+.soc i {
+	display: inline;
+	margin-right: 20px;
+	padding: 10px;
+	background: crimson;
+	color: #fff;
+	font-size: 22px;
+	cursor: pointer;
+}
+.soc {
+	margin-top: 40px;
+}
+
+.footer {
+	background: #A60F2D;
+	text-align: center;
+	padding: 20px;
+	
+	margin-top: 1px;
+}
+.footer h2, .footer a, .footer p {
+	color: #fff;
+}
